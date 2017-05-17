@@ -96,37 +96,52 @@ public class Start01 {
 		// System.out.println(true);
 		// }
 
-		// System.out.println("How old are you?");
-		// Scanner sc = new Scanner (System.in);
-		// int youAge = sc.nextInt();
-		// int age = 18;
-		// sc.close();
-		//
-		// if (youAge<age){
-		// System.out.println("You are very small");
-		// }else if ((youAge<30) && (age<30)) {
-		// System.out.println("students are drinking");
-		//
-		// }else {
-		// System.out.println("You like smaller");
-		// }
+//		 System.out.println("How old are you?");
+//		 Scanner sc = new Scanner (System.in);
+//		 int youAge = sc.nextInt();
+//		 int age = 18;
+//		 sc.close();
+//		
+//		 if (youAge<age){
+//		 System.out.println("You are very small");
+//		 }else if ((youAge<30) && (age<30)) {
+//		 System.out.println("students are drinking");
+//		
+//		 }else {
+//		 System.out.println("You like smaller ");
+//		 }
 		// Random r = new Random();
 		// int randomNumber= r.nextInt(5);
 
-		StringBuffer buffer = new StringBuffer("567847");
-		buffer.reverse();
-		System.out.println(buffer);
-
-		System.out.println(getLastToFirstDigitsOfNumber(76768));
+//		StringBuffer buffer = new StringBuffer("567847");
+//		buffer.reverse();
+//		System.out.println(buffer);
+//
+//		System.out.println(getLastToFirstDigitsOfNumber(76768));
+//	}
+//
+//	public static int getLastToFirstDigitsOfNumber(int num) {
+//		int r = 0;
+//		while (num > 0) {
+//			r = r * 10 + num % 10;
+//			num /= 10;
+//			System.out.println(r);
+//		}
+//		return r;
+//	}
+//	
+	 System.out.println("What's your number?");
+	 Scanner sc = new Scanner (System.in);
+	 int number = sc.nextInt();
+	 Random r = new Random();
+	 int randomNumber = r.nextInt(5);
+	 System.out.println("i" + randomNumber);
+	 sc.close();
+	
+	 if (number < randomNumber && randomNumber > number){
+	 System.out.println("You don't win");
+	 }else if (number == randomNumber) {
+	 System.out.println("You are win!!!");
+	 }
 	}
-
-	public static int getLastToFirstDigitsOfNumber(int num) {
-		int r = 0;
-		while (num > 0) {
-			r = r * 10 + num % 10;
-			num /= 10;
-		}
-		return r;
-	}
-
 }
