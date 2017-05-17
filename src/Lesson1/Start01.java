@@ -113,35 +113,42 @@ public class Start01 {
 		// Random r = new Random();
 		// int randomNumber= r.nextInt(5);
 
-//		StringBuffer buffer = new StringBuffer("567847");
-//		buffer.reverse();
-//		System.out.println(buffer);
-//
-//		System.out.println(getLastToFirstDigitsOfNumber(76768));
-//	}
-//
-//	public static int getLastToFirstDigitsOfNumber(int num) {
-//		int r = 0;
-//		while (num > 0) {
-//			r = r * 10 + num % 10;
-//			num /= 10;
-//			System.out.println(r);
-//		}
-//		return r;
-//	}
-//	
-	 System.out.println("What's your number?");
-	 Scanner sc = new Scanner (System.in);
-	 int number = sc.nextInt();
-	 Random r = new Random();
-	 int randomNumber = r.nextInt(5);
-	 System.out.println("i" + randomNumber);
-	 sc.close();
-	
-	 if (number < randomNumber && randomNumber > number){
-	 System.out.println("You don't win");
-	 }else if (number == randomNumber) {
-	 System.out.println("You are win!!!");
-	 }
+		/*
+		 * Reverse 0
+		 */
+		StringBuffer buffer = new StringBuffer("567847");
+		buffer.reverse();
+		System.out.println(buffer);
+		/*
+		 * Reverse 1
+		 */
+		System.out.println(getLastToFirstDigitsOfNumber(76768));
 	}
+
+	public static int getLastToFirstDigitsOfNumber(int num) {
+		int r = 0;
+		while (num > 0) {
+			r = r * 10 + num % 10;
+			num /= 10;
+			System.out.println(r);
+		}
+		return r;
+	}
+	 /**
+	  * Casino
+	  */
+//	 System.out.println("What's your number?");
+//	 Scanner sc = new Scanner (System.in);
+//	 int number = sc.nextInt();
+//	 Random r = new Random();
+//	 int randomNumber = r.nextInt(5);
+//	 System.out.println("i" + randomNumber);
+//	 sc.close();
+//	
+//	 if (number < randomNumber && randomNumber > number){
+//	 System.out.println("You don't win");
+//	 }else if (number == randomNumber) {
+//	 System.out.println("You are win!!!");
+//	 }
+//	}
 }
