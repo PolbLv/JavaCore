@@ -96,20 +96,20 @@ public class Start01 {
 		// System.out.println(true);
 		// }
 
-//		 System.out.println("How old are you?");
-//		 Scanner sc = new Scanner (System.in);
-//		 int youAge = sc.nextInt();
-//		 int age = 18;
-//		 sc.close();
-//		
-//		 if (youAge<age){
-//		 System.out.println("You are very small");
-//		 }else if ((youAge<30) && (age<30)) {
-//		 System.out.println("students are drinking");
-//		
-//		 }else {
-//		 System.out.println("You like smaller ");
-//		 }
+		// System.out.println("How old are you?");
+		// Scanner sc = new Scanner (System.in);
+		// int youAge = sc.nextInt();
+		// int age = 18;
+		// sc.close();
+		//
+		// if (youAge<age){
+		// System.out.println("You are very small");
+		// }else if ((youAge<30) && (age<30)) {
+		// System.out.println("students are drinking");
+		//
+		// }else {
+		// System.out.println("You like smaller ");
+		// }
 		// Random r = new Random();
 		// int randomNumber= r.nextInt(5);
 
@@ -122,7 +122,7 @@ public class Start01 {
 		/*
 		 * Reverse 1
 		 */
-		System.out.println(getLastToFirstDigitsOfNumber(76768));
+	System.out.println(getLastToFirstDigitsOfNumber(76768));
 	}
 
 	public static int getLastToFirstDigitsOfNumber(int num) {
@@ -134,21 +134,21 @@ public class Start01 {
 		}
 		return r;
 	}
-	 /**
-	  * Casino
-	  */
-//	 System.out.println("What's your number?");
-//	 Scanner sc = new Scanner (System.in);
-//	 int number = sc.nextInt();
-//	 Random r = new Random();
-//	 int randomNumber = r.nextInt(5);
-//	 System.out.println("i" + randomNumber);
-//	 sc.close();
-//	
-//	 if (number < randomNumber && randomNumber > number){
-//	 System.out.println("You don't win");
-//	 }else if (number == randomNumber) {
-//	 System.out.println("You are win!!!");
-//	 }
-//	}
+	/**
+	 * Casino
+	 */
+	// System.out.println("What's your number?");
+	// Scanner sc = new Scanner (System.in);
+	// int number = sc.nextInt();
+	// Random r = new Random();
+	// int randomNumber = r.nextInt(5);
+	// System.out.println("i" + randomNumber);
+	// sc.close();
+	//
+	// if (number < randomNumber && randomNumber > number){
+	// System.out.println("You don't win");
+	// }else if (number == randomNumber) {
+	// System.out.println("You are win!!!");
+	// }
+	// }
 }
